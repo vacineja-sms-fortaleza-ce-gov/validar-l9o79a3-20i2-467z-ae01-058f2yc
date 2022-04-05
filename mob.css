@@ -1,0 +1,659 @@
+@media (max-width:799px) {
+	
+	body{
+		margin:0;
+		padding:0;
+		background-image:url('../images/bg.jpg');
+		background-repeat:repeat-x;
+		background-attachment:fixed;
+	}
+	
+	img{
+		display:block;
+	}
+	
+	.hr{
+		border-bottom:1px solid #CCC;
+		float:left;
+		margin:40px 0;
+	}
+	
+	#malhaLoad{
+		position:fixed;
+		top:0;
+		bottom:0;
+		left:0;
+		right:0;
+		background:#fff;
+		z-index:180;
+		display:block;
+	}		
+	
+	p{
+		margin:0 0 20px 0;
+		float:left;
+		width:100%;
+	}	
+	
+	/***** COLUNAS *****/	
+	.col6{
+		width:16.66%;
+		float:left;
+		background:#e0f;
+	}
+	
+	
+	.col4{
+		width:25%;
+		float:left;
+		background:#ee5;
+	}
+	
+	.col3{
+		width:100%;
+		float:left;
+	}
+	
+	.col2{
+		width:50%;
+		float:left;
+	}
+	
+	
+	.col1{
+		width:100%;
+		float:left;
+	}
+	
+	.colright{
+		width:100% !important;
+		float:left;
+	}
+	
+	
+	/***** COLUNAS *****/
+	
+	
+	
+	
+	
+	
+	
+	
+	/***** RECIPIENTES *****/
+	.container{
+		width:90%;
+		padding:0 5%;
+		margin:0;
+		float:left;
+		border:0px solid blue;
+	}
+	
+	
+	.conteudo{
+		margin:40px 0;
+		float:left;
+		border:0px solid blue;
+	}
+	
+	.container-left-right{
+		width:100%;
+		float:left;
+	}	
+	
+	.box-topo{
+		background-image:url('../images/bg-topo-mob.png');
+		background-position:70% top;
+		background-size:cover;
+		background-repeat:no-repeat;
+		height:auto;
+		padding:5%;
+	}
+	
+	.box-inicial-topo{
+		width:92%;
+		background:#F3F3F3;
+		padding:4%;
+		font:bold 1.2em 'Montserrat', sans-serif;
+		margin-bottom:0;
+		margin-top: 0px;
+		border-radius:10px 10px 0 0;
+		color:#333;
+		display:inline-block;
+	}
+
+	.box-inicial-topo-success{
+		color: #155724 !important;
+		background-color: #d4edda;
+		border-color: #c3e6cb;
+	}
+
+	.box-inicial-topo-danger{
+		color: #721c24;
+		background-color: #f8d7da;
+		border-color: #f5c6cb;
+	}
+	
+	.box-inicial-conteudo{
+		width:92%;
+		background:#F8F8F8;
+		padding:4%;	
+		font:normal 1em 'Montserrat', sans-serif;
+		line-height:22px;
+		border-radius:0 0 10px 10px;
+		color:#333;
+		float:left;
+		}
+	
+	.box-personas{
+		display:none;
+	}	
+	
+	
+	.box-scroll{
+		height:244px;
+		margin-top:10px;
+	}
+	
+	
+	.box-botoes{
+		margin-top:25px;
+		float:left;
+		width:100%;
+	}
+	
+	.box-botao{
+		margin-top:40px;
+		float:left;
+		width:100%;
+	}
+	
+	.box-footer{
+		font:normal 0.9em 'Montserrat', sans-serif;
+		color:#333;
+		text-align:center;
+		margin: 10px 0 40px 0;
+	}
+	
+	
+	.box-titulo-inicial{
+		width:100%;
+		display:flex;
+	}
+	
+	.box-navegacao{
+		margin-bottom:30px;
+		text-align:right;
+		border-bottom:1px solid #DDD;
+		padding-bottom:15px;
+	}	
+	
+	.box-agendamento{
+		background:#FEFFEB;
+		float:left;
+		width:94%;
+		padding:3%;
+		border-radius:5px;
+		box-shadow:0 2px 3px 0 #BBB;
+		margin:10px 0;
+	}
+	span.box-agendamento:hover{
+		background:#FCFFCC;
+		box-shadow:0 1px 2px 0 #BBB;
+	}
+	
+	
+	.tag-dose{
+		width:100%;
+		display: block;
+		color:#0c8992;
+		margin-bottom:5px;
+	}	
+	/***** RECIPIENTES *****/
+	
+	
+	
+	
+	
+	/***** IMAGENS *****/
+	
+	.load{
+		position:absolute;
+		width:60px;
+		height:60px;
+		left:50%;
+		top:50%;
+		margin-left:-30px;
+		margin-top:-30px;
+	}	
+	
+	
+	.logo{
+		display:block;
+		float:left;
+		width:40%;
+		cursor:pointer;
+	}
+	
+	.selo-vacineja{
+		display:block;
+		float:left;
+		width:36%;
+		margin-left: 8px;
+	}
+	
+	.sombra{
+		position:relative;
+		z-index:101;
+		width:100%;
+		height:6px;
+		margin-top:1px;
+		float:left;
+	}
+	
+	.banner{
+		border-radius:10px;
+		padding:2px;
+		transition:0.3s;
+		opacity:0;
+		width:90%;
+	}
+	
+	.img-personas{
+		position:relative;
+		width:100%;
+		transition:all 0.8s ease;
+		opacity:0;
+		margin-top:1px;
+		float:left;
+	}	
+	
+	
+	.tela-tab{
+		width:100%;
+		margin:40px 0;
+	}
+	
+	.icon-seringa-mob{
+		position:absolute;
+		z-index:150;
+		margin-top: 63%;
+		left: 5%;
+		width:30%;
+		transition:2s;
+		opacity:0;
+	}
+	
+	.icon-seringa-desk{display:none;}
+	
+	/***** IMAGENS *****/
+	
+	
+	
+	
+	
+	/***** ICONES *****/
+	.icon-user{
+		/* display:block !important; */
+		float: right;
+		margin: 2px 8px;
+		font-size: 14px;
+		color: #fff;
+		cursor: pointer;
+		border: 2px solid white;
+		padding: 8px 8px;
+		border-radius: 16px;
+		transition: 0.3s;	
+	}
+
+	.icon-plus{
+		float:right;
+		margin:0 0 0 20px;
+		font-size:20px;
+		color:#0c8992;
+		cursor:pointer;
+		border: 2px solid #0c8992;
+		padding: 13px 14px;
+		border-radius: 25px;
+		transition:0.3s;
+	}
+	i.icon-plus:hover{
+		color:#FEFFEB;
+		background:#0c8992;	
+	}	
+	/***** ICONES *****/
+	
+	
+	
+	
+	
+	/***** TEXTOS *****/
+	.tit-padrao{
+		font:bold 1.7em 'Montserrat', sans-serif;
+		color:#333;
+		float:inherit;
+		width:100%;
+		display:inline-block;
+	}
+	
+	.t-verde{
+		color:#009c91 !important;
+	}
+	
+	
+	.t-margin-bottom{
+		margin-bottom:40px;
+	}
+	
+	.texto{
+		font:normal 1em 'Montserrat', sans-serif;
+		color:#333;	
+		line-height:22px;
+	}
+	
+	.textk-list{
+		font:normal 1em 'Montserrat', sans-serif;
+		color:#333;	
+		background:#f8f8f8;
+		padding:8px 3%;
+		line-height:26px;
+		margin:2px 0;
+		float:left;
+		width:94%;
+		text-decoration:none;
+		border-radius:5px;
+		transition:0.3s;
+	}
+	a.textk-list:hover{
+		background:#FFCC00;
+	}
+	
+	
+	.text-k{
+		color:#009c91;	
+		text-decoration:none;
+	}
+	a.text-k:hover{
+		color:#333;
+	}
+	
+	.link-nav{
+		font:400 1em 'Montserrat', sans-serif;
+		color:#0c8e98;
+		margin-right:15px;
+		text-decoration:none;
+		line-height:28px;
+		background:#FFF;
+		padding:10px 20px;
+		border-radius:5px;
+	}
+	a.link-nav:hover{
+		color:#fff;
+		background:#0c8e98;
+	}	
+
+    .section-form{
+		color:#009c91;
+		float: left;
+		width: 100%;
+		height:0;
+		text-align: left;
+		margin:35px 0;
+		border-top: 1px solid #009c91;
+	}
+	.tit-section-form{
+		font:normal 0.8em 'Montserrat', sans-serif;
+		background:#f8f8f8;
+		padding:5px 12px 5px 0;
+		position:relative;
+		top:-12px;
+	}
+	/***** TEXTOS *****/
+	
+	
+	
+	
+	/***** FORMULARIOS *****/
+	.btn-verde{
+		width:100%;
+		padding:20px 5%;
+		background:#009c91;
+		color:#fff;
+		border:0;
+		font:bold 1em 'Montserrat', sans-serif;
+		border-radius:5px;
+		transition:0.3s;
+		cursor:pointer;
+		float:left;
+		margin:5px 0;
+	}
+	.btn-verde:hover{
+		background:#0a727a;
+		box-shadow: 0 2px 6px #AEAEAE;
+	}
+	
+	.btn-amarelo{
+		width:100%;
+		padding:20px 5%;
+		background:#FFCC00;
+		color:#000;
+		border:0;
+		font:600 1em 'Montserrat', sans-serif;
+		border-radius:5px;
+		transition:0.3s;
+		cursor:pointer;
+		margin:5px 0;
+	}
+	.btn-amarelo:hover{
+		background:#E6AE01;
+		box-shadow: 0 2px 6px #AEAEAE;
+	}
+	
+	
+	.btn-cinza{
+		min-width:100%;
+		padding:8px 0;
+		background:#AEAEAE;
+		color:#fff;
+		border:0;
+		font:600 1em 'Montserrat', sans-serif;
+		border-radius:5px;
+		transition:0.3s;
+		cursor:pointer;
+		float:left;
+		margin-top: 2px;
+	}
+	.btn-cinza:hover{
+		background:#555;
+		box-shadow: 0 2px 6px #888;
+	}
+
+	.btn-cinza-home{
+		padding:20px 0 !important;
+		}
+
+	.label{
+		font:normal 0.9em 'Montserrat', sans-serif;
+		color:#555;
+		display:block;
+		margin:0 0 4px 0;
+	}
+	
+
+	.box-input-g{
+		width:100%;
+		display:grid;
+		padding:5px 0 5px 0;
+		/*background:#dee;*/
+	}
+	
+	.box-input-m{
+		width:100%;
+		display:grid;
+		padding:5px 0 5px 0;
+		/*background:#def;*/
+		float:left;
+	}
+	
+	.box-input-ml{
+		width:100%;
+		display:grid;
+		padding:5px 0 5px 0;
+		/*background:#def;*/
+		float:left;
+	}
+	
+	.box-input-p{
+		width:100%;
+		display:grid;
+		padding:5px 0 5px 0;
+		/*background:#df0;*/
+		float:left;
+	}
+
+	.box-input-pp{
+		width:100%;
+		display:grid;
+		padding:5px 0 5px 0;
+		/*background:#def;*/
+		float:left;
+	}
+	
+	.campo{
+		padding:12px 2%;
+		border-radius:5px;
+		width:95%;
+		border:1px solid #CCC;
+		font:normal 1em 'Montserrat', sans-serif;
+	}
+	
+	
+	.selecao{
+		padding:11px 2%;
+		border-radius:5px;
+		width:99%;
+		border:1px solid #CCC;
+		font:normal 1em 'Montserrat', sans-serif;
+	}	
+
+
+	.campo-g{
+		padding:4%;
+		border-radius:5px;
+		width:91%;
+		border:1px solid #CCC;
+		font:normal 1em 'Montserrat', sans-serif;
+	}
+	.campo-m{
+		padding:4%;
+		border-radius:5px;
+		width:91%;
+		border:1px solid #CCC;
+		font:normal 1em 'Montserrat', sans-serif;
+	}	
+	.campo-p{
+		padding:4%;
+		border-radius:5px;
+		width:15%;
+		border:1px solid #CCC;
+		font:normal 1em 'Montserrat', sans-serif;
+	}
+	
+	.modalErro{
+		background:#ffefef;
+		font:normal 1.1em 'Montserrat', sans-serif;
+		color:red;
+		float:left;
+		width:96%;
+		padding:2%;
+		border-radius:5px;
+		margin:10px 0;
+	}	
+	
+	.modalOk{
+		background:#e5ffcb;
+		font:normal 1em 'Montserrat', sans-serif;
+		color:green;
+		float:left;
+		width:96%;
+		padding:8px 2%;
+		border-radius:5px;
+		margin:10px 0;
+	}	
+	/***** FORMULARIOS *****/
+
+
+	/**** CONTAINER CERTIFICADO VACINA ****/
+
+	.margin-certificado-top {
+		margin-top: 20px;
+	}
+
+	.margin-certificado-bottom {
+		margin-bottom: 20px;
+	}
+	
+	.btn-branco{
+		width:100%;
+		padding:20px;
+		color:#000;
+		border: 1px solid black;
+		background-color: #fff;
+		font:600 1em 'Montserrat', sans-serif;
+		border-radius:5px;
+		transition:0.3s;
+		cursor:pointer;
+		float:left;
+		
+	}
+	.btn-branco:hover{
+		background:rgb(255, 254, 254);
+		box-shadow: 0 2px 6px #AEAEAE;
+	}
+	
+
+
+	.sessao-certificado {
+		display: flex;
+		/* width: 100%; */
+		align-items: center;
+		border-top: 1px solid #CCC ;
+		height: 110px;
+		border-bottom: 1px solid #CCC ;
+		margin:40px 0;
+
+		float:left;
+		width:100%;
+	}
+	
+	.icone-cartao {
+		position: relative;
+		height: 60px;
+		left: 25px;
+		display: none;
+	}
+
+	.texto-certificado {
+		color: #009c91;
+		left: 60px;
+		font: 1.5em 'Montserrat', sans-serif;
+		padding-left: 50px;
+		padding-right: 80px;
+		display: none;
+	}
+
+	
+	.btn-certificado {
+		width:100%;
+		padding:20px;
+		color:#000;
+		background-color: #FFCC00;
+		font:600 1em 'Montserrat', sans-serif;
+		border-radius:5px;
+		transition:0.3s;
+		cursor:pointer;
+		float:left;	
+	}
+	
+	
+}			

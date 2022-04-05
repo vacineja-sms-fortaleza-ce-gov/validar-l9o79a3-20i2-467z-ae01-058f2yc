@@ -1,0 +1,579 @@
+@media (min-width:1220px) and (max-width:1559px) {
+	
+	body{
+		margin:0;
+		padding:0;
+		background-image:url('../images/bg.jpg');
+		background-repeat:repeat-x;
+		background-attachment:fixed;
+	}
+	
+	img{
+		display:block;
+	}
+	
+	.hr{
+		border-bottom:1px solid #CCC;
+		float:left;
+		margin:40px 0;
+	}
+	p{
+		margin:0 0 20px 0;
+		float:left;
+		width:100%;
+	}	
+	#malhaLoad{
+		position:fixed;
+		top:0;
+		bottom:0;
+		left:0;
+		right:0;
+		background:#fff;
+		z-index:180;
+		display:block;
+	}	
+	
+	
+	/***** COLUNAS *****/	
+	.col6{
+		width:16.66%;
+		float:left;
+		background:#e0f;
+	}
+	
+	
+	.col4{
+		width:25%;
+		float:left;
+		background:#ee5;
+	}
+	
+	.col3{
+		width:33.33%;
+		float:left;
+	}
+	
+	.col2{
+		width:50%;
+		float:left;
+	}
+	
+	
+	.col1{
+		width:100%;
+		float:left;
+	}
+	
+	.colright{
+		width:65% !important;
+		float:right;
+	}
+	
+	
+	/***** COLUNAS *****/
+	
+	
+	
+	
+	
+	
+	
+	
+	/***** RECIPIENTES *****/
+	.container{
+		width:90%;
+		padding:0 5%;
+		margin:0;
+		float:left;
+		border:0px solid blue;
+	}
+	
+	
+	.conteudo{
+		margin:45px 0;
+		float:left;
+		border:0px solid blue;
+	}
+	
+	.container-left-right{
+		width:100%;
+		float:left;
+		position:relative;
+	}
+	
+	
+	.box-topo{
+		background-image:url('../images/bg-topo-lap.png');
+		background-position: left top;
+		background-size:cover;
+		background-repeat:no-repeat;
+		height:110px;	
+	}
+	
+	.box-inicial-topo{
+		width:96%;
+		background:#F3F3F3;
+		padding:20px 2%;
+		font:bold 1em 'Montserrat', sans-serif;
+		margin-bottom:0;
+		margin-top:30px;
+		border-radius:10px 10px 0 0;
+		color:#333;
+		display:inline-block;
+	}
+	
+	.box-inicial-conteudo{
+		width:96%;
+		background:#F8F8F8;
+		padding:2%;	
+		font:normal 1em 'Montserrat', sans-serif;
+		line-height:22px;
+		border-radius:0 0 10px 10px;
+		color:#333;
+		float:right;
+	}
+	
+	
+	.box-personas{
+		width:32%;
+		position:absolute;
+		bottom:0;
+		top:0;
+		left:0;
+		background:#ccc;
+		margin:auto;
+		background-position:center;
+		background-size:cover;
+		border-radius:10px;
+		transition:all 0.2s ease;
+		opacity:0;
+	}	
+	
+	.box-scroll{
+		overflow-y: scroll;
+		height:225px;
+		margin-top:15px;
+	}
+	
+	.box-botoes{
+		margin-top:25px;
+		float:left;
+		width:100%;
+	}
+	
+	.box-botao{
+		margin-top:5%;
+		float:left;
+		width:100%;
+	}
+	
+	.box-center{
+		border:0px red solid;
+		width:100%;
+		margin:0 0 100px 0;
+	}
+	
+	.box-login{
+		width:50% !important;
+		margin:0 25% 100px 25% !important;
+	}
+	
+	.box-footer{
+		font:normal 0.9em 'Montserrat', sans-serif;
+		color:#333;
+		text-align:center;
+		margin: 10px 0 40px 0;
+	}
+	
+	.box-navegacao{
+		margin-bottom:30px;
+		text-align:right;
+		border-bottom:1px solid #DDD;
+		padding-bottom:15px;
+	}		
+	
+	.box-agendamento{
+		background:#FEFFEB;
+		float:left;
+		width:96%;
+		padding:2%;
+		border-radius:5px;
+		box-shadow:0 2px 3px 0 #BBB;
+		margin:10px 0;
+	}
+	span.box-agendamento:hover{
+		background:#FCFFCC;
+		box-shadow:0 1px 2px 0 #BBB;
+	}
+	
+	
+	.tag-dose{
+		width:100%;
+		display: block;
+		color:#0c8992;
+		margin-bottom:5px;
+	}	
+	/***** RECIPIENTES *****/
+	
+	
+	
+	
+	
+	/***** IMAGENS *****/
+	.load{
+		position:absolute;
+		width:60px;
+		height:60px;
+		left:50%;
+		top:50%;
+		margin-left:-30px;
+		margin-top:-30px;
+	}		
+	
+	.logo{
+		display:block;
+		float:left;
+		width:250px;
+		margin-top:16px;
+		cursor:pointer;
+	}
+	
+	.selo-vacineja{
+		display:block;
+		float:right;
+		width:190px;
+		margin-top:28px;
+		margin-right:15px;
+	}
+	
+	
+	.sombra{
+		display:block;
+		float:left;
+		width:100%;
+		height:5px;
+		margin-top:1px;
+	}
+	
+	.banner{
+		border-radius:10px;
+		padding:2px;
+		transition:0.3s;
+		opacity:0;
+		width:90%;
+	}
+	.img-personas{display:none;}
+	
+	
+	
+	.tela-tab{
+		width:88%;
+		margin-left:21px;
+	}
+	
+	.icon-seringa-mob{display:none;}
+	
+	.icon-seringa-desk{
+		position:absolute;
+		z-index:150;
+		top:67%;
+		left:1%;
+		width:11%;	
+		transition:2s;
+		opacity:0;
+	}
+	
+	/***** IMAGENS *****/
+	
+	
+	
+	
+	
+	/***** ICONES *****/
+	.icon-user{
+		float:right;
+		margin:31px 20px;
+		font-size:20px;
+		color:#fff;
+		cursor:pointer;
+		border:2px solid white;
+		padding: 13px 15px;
+		border-radius: 25px;
+		transition:0.3s;
+	}
+	i.icon-user:hover{
+		color:#ffcc00;
+		background:white;
+		color:#0c8992;	
+	}
+
+
+	
+	.icon-plus{
+		float:right;
+		margin:0 0 0 20px;
+		font-size:20px;
+		color:#0c8992;
+		cursor:pointer;
+		border: 2px solid #0c8992;
+		padding: 13px 14px;
+		border-radius: 25px;
+		transition:0.3s;
+	}
+	i.icon-plus:hover{
+		color:#FEFFEB;
+		background:#0c8992;	
+	}	
+	
+	/***** ICONES *****/
+	
+	
+	
+	
+	
+	/***** TEXTOS *****/
+	.tit-padrao{
+		font:bold 2em 'Montserrat', sans-serif;
+		color:#333;
+	}
+	
+	.t-verde{
+		color:#009c91 !important;
+	}
+	
+	
+	.t-margin-bottom{
+		margin-bottom:0;
+	}
+	
+	.texto{
+		font:normal 1em 'Montserrat', sans-serif;
+		color:#333;	
+		line-height:22px;
+	}
+	
+	.textk-list{
+		font:normal 1em 'Montserrat', sans-serif;
+		color:#333;	
+		background:#f8f8f8;
+		padding:4px 8px;
+		line-height:26px;
+		margin:2px 0;
+		float:left;
+		width:92%;
+		text-decoration:none;
+		border-radius:5px;
+		transition:0.3s;
+	}
+	a.textk-list:hover{
+		background:#FFCC00;
+	}
+	
+	
+	.text-k{
+		color:#009c91;	
+		text-decoration:none;
+	}
+	a.text-k:hover{
+		color:#333;
+	}
+	
+	.link-nav{
+		font:400 1em 'Montserrat', sans-serif;
+		color:#0c8e98;
+		margin:0 5px;
+		text-decoration:none;
+		padding:4px 8px;
+		border-radius:5px;
+	}
+	a.link-nav:hover{
+		background:#0c8e98;
+		color:#fff;
+	}	
+
+
+
+    .section-form{
+		color:#009c91;
+		float: left;
+		width: 100%;
+		height:0;
+		text-align: left;
+		margin:35px 0;
+		border-top: 1px solid #009c91;
+	}
+	.tit-section-form{
+		font:normal 0.8em 'Montserrat', sans-serif;
+		background:#f8f8f8;
+		padding:5px 12px 5px 0;
+		position:relative;
+		top:-12px;
+	}
+
+	/***** TEXTOS *****/
+	
+	
+	
+	
+	/***** FORMULARIOS *****/
+	.btn-verde{
+		width:auto;
+		padding:20px 25px;
+		background:#009c91;
+		color:#fff;
+		border:0;
+		font:bold 1em 'Montserrat', sans-serif;
+		border-radius:5px;
+		transition:0.3s;
+		cursor:pointer;
+		float:left;
+	}
+	.btn-verde:hover{
+		background:#0a727a;
+		box-shadow: 0 2px 6px #AEAEAE;
+	}
+	
+	
+	
+	.btn-amarelo{
+		width:auto;
+		padding:20px;
+		background:#FFCC00;
+		color:#000;
+		border:0;
+		font:600 1em 'Montserrat', sans-serif;
+		border-radius:5px;
+		transition:0.3s;
+		cursor:pointer;
+		margin-left:28px;
+	}
+	.btn-amarelo:hover{
+		background:#E6AE01;
+		box-shadow: 0 2px 6px #AEAEAE;
+	}
+	
+	
+	.btn-cinza{
+		min-width:64%;
+		padding:8px 0;
+		background:#AEAEAE;
+		color:#fff;
+		border:0;
+		font:normal 1em 'Montserrat', sans-serif;
+		border-radius:5px;
+		transition:0.3s;
+		cursor:pointer;
+		float:right;
+		margin-right: 2%;;
+		margin-top: 2px;;
+	}
+	.btn-cinza:hover{
+		background:#555;
+		box-shadow: 0 2px 6px #888;
+	}
+
+
+	.label{
+		font:normal 0.9em 'Montserrat', sans-serif;
+		color:#555;
+		display:block;
+		margin:4px 0;
+	}
+	
+
+	.box-input-g{
+		width:98%;
+		display:grid;
+		padding:5px 1% 5px 1%;
+		/*background:#dee;*/
+	}
+	
+	.box-input-m{
+		width:48%;
+		display:grid;
+		padding:5px 1% 5px 1%;
+		/*background:#def;*/
+		float:left;
+	}
+	
+	.box-input-ml{
+		width: 65%;
+		display:grid;
+		padding:5px 1% 5px 1%;
+		/*background:#def;*/
+		float:left;
+	}
+	
+	.box-input-p{
+		width:31%;
+		display:grid;
+		padding:5px 1% 5px 1%;
+		/*background:#df0;*/
+		float:left;
+	}
+	
+	
+	.campo{
+		padding:12px 2%;
+		border-radius:5px;
+		width:96%;
+		border:1px solid #CCC;
+		font:normal 1em 'Montserrat', sans-serif;
+	}
+	
+	
+	.selecao{
+		padding:11px 3%;
+		border-radius:5px;
+		width:100%;
+		border:1px solid #CCC;
+		font:normal 1em 'Montserrat', sans-serif;
+	}	
+
+
+	.campo-g{
+		padding:2%;
+		border-radius:5px;
+		width:95%;
+		border:1px solid #CCC;
+		font:normal 1em 'Montserrat', sans-serif;
+	}
+	.campo-m{
+		padding:2%;
+		border-radius:5px;
+		width:45%;
+		border:1px solid #CCC;
+		font:normal 1em 'Montserrat', sans-serif;
+	}	
+	.campo-p{
+		padding:2%;
+		border-radius:5px;
+		width:15%;
+		border:1px solid #CCC;
+		font:normal 1em 'Montserrat', sans-serif;
+	}	
+	
+	.modalErro{
+		background:#ffefef;
+		font:normal 1em 'Montserrat', sans-serif;
+		color:red;
+		float:left;
+		width:96%;
+		padding:8px 2%;
+		border-radius:5px;
+		margin:10px 0;
+	}
+	
+	.modalOk{
+		background:#e5ffcb;
+		font:normal 1em 'Montserrat', sans-serif;
+		color:green;
+		float:left;
+		width:96%;
+		padding:8px 2%;
+		border-radius:5px;
+		margin:10px 0;
+	}	
+	/***** FORMULARIOS *****/
+	
+}	
